@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+select#select {
+    padding: .5rem;
+    border-radius: 8px;
+    background-color: white;
+}
